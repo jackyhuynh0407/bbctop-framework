@@ -1,0 +1,30 @@
+{
+    "name": "bbctop/lib",
+    "description": "BBCTOP library",
+    "type": "library",
+    "homepage": "https://www.bbctop.com",
+    "require": {
+    		"php": ">=7.1.0",
+        "topthink/think": "^6.0"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "jackyhuynh",
+            "email": "jacky040789@gmail.com"
+        },
+        {
+            "name": "ZhiWei-Wu",
+            "email": "1084101286@qq.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Bbctop\\Lib\\": "src/"
+        }
+    }
+}

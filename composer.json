@@ -25,5 +25,14 @@
         "psr-4": {
             "Bbctop\\Lib\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Bbctop\\Lib\\": "src/"
+        }
     }
+    
 }

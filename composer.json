@@ -3,9 +3,7 @@
     "description": "BBCTOP library",
     "type": "library",
     "homepage": "https://www.bbctop.com",
-    "require": {
-    		"php": ">=7.1.0"
-    },
+    "require": {},
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,

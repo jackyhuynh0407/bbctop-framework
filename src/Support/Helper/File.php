@@ -1,6 +1,6 @@
 <?php
 
-namespace app\common\helper;
+namespace Bbctop\Lib\Support\Helper;
 
 use think\exception\ErrorException;
 use FilesystemIterator;

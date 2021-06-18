@@ -9,7 +9,7 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-namespace Bbctop\Lib\facade;
+namespace Bbctop\Lib\Facade;
 
 if (class_exists('think\Facade')) {
     class Facade extends \think\Facade
@@ -41,7 +41,7 @@ if (class_exists('think\Facade')) {
          */
         protected static function createFacade()
         {
-            $class = static::getFacadeClass() ?: 'Bbctop\Lib\Template';
+            $class = static::getFacadeClass() ?: 'Bbctop\Lib\Template\Template';
 
             if (static::$alwaysNewInstance) {
                 return new $class();
@@ -78,6 +78,6 @@ class Template extends Facade
      */
     protected static function getFacadeClass()
     {
-        return 'Bbctop\Lib\Template';
+        return 'Bbctop\Lib\Template\Template';
     }
 }

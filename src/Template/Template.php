@@ -111,7 +111,7 @@ class Template
 
         // 初始化模板编译存储器
         $type  = $this->config['compile_type'] ? $this->config['compile_type'] : 'File';
-        $class = false !== strpos($type, '\\') ? $type : '\\think\\template\\driver\\' . ucwords($type);
+        $class = false !== strpos($type, '\\') ? $type : '\\Bbctop\\Lib\\Template\\Driver\\' . ucwords($type);
 
         $this->storage = new $class();
     }

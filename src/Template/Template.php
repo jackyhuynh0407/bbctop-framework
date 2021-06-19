@@ -797,7 +797,7 @@ class Template
             $className = $tagLib;
             $tagLib    = substr($tagLib, strrpos($tagLib, '\\') + 1);
         } else {
-            $className = '\\think\\template\\taglib\\' . ucwords($tagLib);
+            $className = '\\Bbctop\\Lib\\Template\\Taglib\\' . ucwords($tagLib);
         }
 
         $tLib = new $className($this);

@@ -12,7 +12,7 @@
 namespace Bbctop\Lib\Template;
 
 use Exception;
-use Template;
+use Bbctop\Lib\Template\Template;
 
 /**
  * ThinkPHP标签库TagLib解析基类
